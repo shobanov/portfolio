@@ -1,17 +1,16 @@
 import s from './Main.module.css'
-import commonStyle from '../common/styles/Container.module.css'
-
 
 function Main() {
+
   return (
-    <div className={s.mainBlock}>
-      <div className={commonStyle.container}>
+    <div className={s.container}>
+      <div className={s.wrapper}>
         <div className={s.text}>
           <span>Hi there</span>
-          <h1>I am Batman</h1>
+          <h1>I am Borat</h1>
           <p>Frontend Developer</p>
         </div>
-        <div className={s.foto}><img src="https://humor.fm/upload/post/2020/06/16/1722561/gallery/9439zadrot-11288291-orig.jpg" width="300" height="400" alt="foto" /></div>
+        <div className={s.foto}><img src='https://media1.tenor.com/images/c52ad4746e8b45e15e91256d67830772/tenor.gif?itemid=18652331' width="100%" height="auto" alt="gif" /></div>
       </div>
     </div>
   )

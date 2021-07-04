@@ -1,3 +1,16 @@
 .App {
-  
+  overflow-x: hidden;
+  overflow-y: hidden;
+}
+
+input,
+button,
+textarea,
+select {
+  font: inherit;
+  border-style: none;
+}
+
+::-webkit-input-placeholder { 
+  padding-left: 10px;
 }
