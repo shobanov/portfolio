@@ -15,3 +15,8 @@
 .text * {
   color: aliceblue;
 }
+
+.text {
+  height: 156px;
+  width: 162px;
+}
